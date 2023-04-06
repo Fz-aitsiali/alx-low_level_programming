@@ -17,7 +17,6 @@ int sqrt2(int x, int y)
 /**
  * _sqrt_recursion - returns the natural square root of n
  * @n: Number Integer
- *
  * Return: On success 1 or -1 if not
  */
 int _sqrt_recursion(int n)
