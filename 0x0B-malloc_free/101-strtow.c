@@ -1,10 +1,9 @@
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
 /**
- * count_word - helper function to count the number of words in a string
- * @height : input
- * @grid : input
- * Return: number of words
+ * ch_free_grid - Main Entry
+ * @grid: input
+ * @height: input
  */
 void ch_free_grid(char **grid, unsigned int height)
 {
@@ -17,10 +16,9 @@ void ch_free_grid(char **grid, unsigned int height)
 	}
 }
 /**
- * **strtow - splits a string into words
- * @str: string to split
- * Return: pointer to an array of strings (Success)
- * or NULL (Error)
+ * strtow - Main Entry
+ * @str: input
+ * Return: 0
  */
 char **strtow(char *str)
 {
