@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - prints the minimum number of coins to make change for an amount of money.
+ * main - prints the minimum number of coins .
  * @argc : an argument counter for char
  * @argv : an argument value for char
  * Return: 0 on success
